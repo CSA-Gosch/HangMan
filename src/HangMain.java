@@ -11,15 +11,16 @@ public class HangMain {
         Scanner input = new Scanner(System.in);
 
         int random;
+        char userEntry;
         random = ((int) (Math.random() * words.length));
         String randomString = words[random];
-
 
 
         for(int i = 0; i < randomString.length(); i++)
         {
             System.out.print("_ ");
         }
+        System.out.print("Guess your ");
     }
 
 }
