@@ -4,14 +4,21 @@ public class HangMain {
 
     public static void main(String[] args)
     {
+        Graphics.Graphics();
+
         String[] words = {"Tool", "INK", "Metallica"};
+
         Scanner input = new Scanner(System.in);
 
+        int random;
+        random = ((int) (Math.random() * words.length));
+        String randomString = words[random];
 
 
-        for(int i = 0; i <= words.length; i++)
+
+        for(int i = 0; i < randomString.length(); i++)
         {
-            words[0] =
+            System.out.print("_ ");
         }
     }
 
