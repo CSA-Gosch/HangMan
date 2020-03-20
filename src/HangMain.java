@@ -11,16 +11,26 @@ public class HangMain {
         Scanner input = new Scanner(System.in);
 
         int random;
-        char userEntry;
+        int limit = 0;
+        String userEntry;
         random = ((int) (Math.random() * words.length));
         String randomString = words[random];
+        String[] sepWord = new String[randomString.length()];
 
 
         for(int i = 0; i < randomString.length(); i++)
         {
+            sepWord[i] = Character.toString(randomString.charAt(i));
             System.out.print("_ ");
+
+            while (limit < 7)
+            {
+                System.out.print("Guess a letter in the word >>> ");
+                userEntry = input.nextLine();
+            }
+
         }
-        System.out.print("Guess your ");
+
     }
 
 }
