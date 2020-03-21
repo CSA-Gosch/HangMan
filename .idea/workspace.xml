@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85b0e071-8d35-403f-8f1d-b7c8f8f0682c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HangMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HangMain.java" afterDir="false" />
     </list>
@@ -28,6 +27,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Application.HangMain">
@@ -97,21 +97,25 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="879" y="664" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1584640398885" />
-    <state width="914" height="386" key="GridCell.Tab.0.bottom" timestamp="1584649779925">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="723" height="223" key="GridCell.Tab.0.bottom" timestamp="1584824078513">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
+    <state width="723" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1584824078513" />
     <state width="914" height="386" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1584649779925" />
-    <state width="914" height="386" key="GridCell.Tab.0.center" timestamp="1584649779925">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="723" height="223" key="GridCell.Tab.0.center" timestamp="1584824078513">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
+    <state width="723" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1584824078513" />
     <state width="914" height="386" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1584649779925" />
-    <state width="914" height="386" key="GridCell.Tab.0.left" timestamp="1584649779925">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="723" height="223" key="GridCell.Tab.0.left" timestamp="1584824078513">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
+    <state width="723" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1584824078513" />
     <state width="914" height="386" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1584649779925" />
-    <state width="914" height="386" key="GridCell.Tab.0.right" timestamp="1584649779925">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="723" height="223" key="GridCell.Tab.0.right" timestamp="1584824078513">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
+    <state width="723" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1584824078513" />
     <state width="914" height="386" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1584649779925" />
   </component>
 </project>

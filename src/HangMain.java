@@ -15,18 +15,40 @@ public class HangMain {
         String userEntry;
         random = ((int) (Math.random() * words.length));
         String randomString = words[random];
-        String[] sepWord = new String[randomString.length()];
 
+        while
 
         for(int i = 0; i < randomString.length(); i++)
         {
-            sepWord[i] = Character.toString(randomString.charAt(i));
-            System.out.print("_ ");
-
             while (limit < 7)
             {
                 System.out.print("Guess a letter in the word >>> ");
                 userEntry = input.nextLine();
+                if (limit == 1)
+                {
+                    Graphics.GraphicsTwo();
+                }
+                if (limit == 2)
+                {
+                    Graphics.GraphicsThree();
+                }
+                if (limit == 3)
+                {
+                    Graphics.GraphicsFour();
+                }
+                if (limit == 4)
+                {
+                    Graphics.GraphicsFive();
+                }
+                if (limit == 5)
+                {
+                    Graphics.GraphicsSix();
+                }
+                else if (limit == 5)
+                {
+                    Graphics.GraphicsSeven();
+                    System.out.println("Game Over, the word was " + randomString);
+                }
             }
 
         }
