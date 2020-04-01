@@ -18,6 +18,7 @@ public class HangMain {
         random = ((int) (Math.random() * words.length));
         GetWord word = new GetWord();
         word.setWord(words[random]);
+        char[] alreadyGuessed = new char[7];
 
 
         //Initializing the hidden version of our random word
@@ -27,11 +28,11 @@ public class HangMain {
 
         //User interacting with the program
         while(limit < 6 && hiddenWord.contains("-")) {
-            char[] alreadyGuessed = new char[7];
             System.out.println("Already guessed: " + alreadyGuessed);
             System.out.println("Guess a letter in the word >>> ");
             System.out.println(hiddenWord);
             char userEntry = input.next().charAt(0);
+            alreadyGuessed[bruh++] = userEntry;
 
             String replace = "";
 
@@ -53,24 +54,23 @@ public class HangMain {
             if(hiddenWord.equals(replace))
             {
                 limit++;
-                alreadyGuessed[bruh++] = userEntry;
                 if (limit == 1) {
                     Graphics.GraphicsTwo();
                     System.out.println("WRONG!");
                 }
-                if (limit == 2) {
+                else if (limit == 2) {
                     Graphics.GraphicsThree();
                     System.out.println("WRONG!");
                 }
-                if (limit == 3) {
+                else if (limit == 3) {
                     Graphics.GraphicsFour();
                     System.out.println("WRONG!");
                 }
-                if (limit == 4) {
+                else if (limit == 4) {
                     Graphics.GraphicsFive();
                     System.out.println("WRONG!");
                 }
-                if (limit == 5) {
+                else if (limit == 5) {
                     Graphics.GraphicsSix();
                     System.out.println("WRONG!");
                 }
